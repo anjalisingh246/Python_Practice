@@ -1,0 +1,6 @@
+# with argument without return
+
+def fun_name(s):
+    print("hello"+''+s)
+x = input("enter the name: ")
+fun_name(x)

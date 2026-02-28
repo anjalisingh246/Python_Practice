@@ -1,23 +1,12 @@
 n = int(input("enter the number: "))
-i = 1
+i = 0
 while i<=n:
-    print((n-i)*' '+"* "*i)
+    print(''*i + "*"*(n-i))
     i = i+1
-i = i-2
-while i>0:
-    print((n-i)*' '+"* "*i)
-    i = i-1
 
-
-# output-
-
-#     * 
-#    * *
-#   * * *
-#  * * * *
-# * * * * *
-#  * * * *
-#   * * *
-#    * *
-#     *
-    
+# Output-
+# *****
+# ****
+# ***
+# **
+# *    
